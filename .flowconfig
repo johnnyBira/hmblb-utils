@@ -1,0 +1,9 @@
+[ignore]
+
+[include]
+
+[libs]
+
+[options]
+module.name_mapper='^locals/\(.*\)$' -> '<PROJECT_ROOT>/src/\1'
+module.name_mapper='^locals/\(.*\)$' -> '<PROJECT_ROOT>/src/utils/\1'
