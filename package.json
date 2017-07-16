@@ -10,7 +10,8 @@
     "build:main": "webpack",
     "test": "jest --verbose",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "commitmsg": "banner john"
   },
   "keywords": [
     "utility",
