@@ -1,6 +1,6 @@
 {
-  "name": "ashlar",
-  "version": "0.0.1",
+  "name": "hmblb-utils",
+  "version": "0.0.0-development",
   "description": "Removes the gaps of your existing float based grid.",
   "main": "src/index.js",
   "scripts": {
@@ -10,15 +10,30 @@
     "build:main": "webpack",
     "test": "jest --verbose",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [
     "utility",
     "helpers",
     "library",
     "immutable",
-    "funcitonal"
+    "funcitonal",
+    "fp"
   ],
+  "files": [
+    "dist"
+  ],
+  "jest": {
+    "modulePaths": [
+      "src"
+    ],
+    "collectCoverageFrom": [
+      "public/assets/scripts/**/*.{js,jsx}",
+      "!<rootDir>/node_modules/",
+      "!<rootDir>/test"
+    ]
+  },
   "author": "John Persson",
   "license": "MIT",
   "devDependencies": {
@@ -40,7 +55,12 @@
     "jsdom": "^11.1.0",
     "npm-run-all": "^4.0.2",
     "rimraf": "^2.6.1",
-    "webpack": "^3.2.0"
+    "webpack": "^3.3.0",
+    "semantic-release": "^6.3.6"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnnyBira/hmblb-utils.git"
+  }
 }

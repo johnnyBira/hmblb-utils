@@ -6,9 +6,9 @@ module.exports = {
     filename: 'dist/bundle.js',
   },
   resolve: {
-    extensions: ['js'],
+    extensions: ['.js', '.jsx', '.json', '.scss'],
     modules: [
-      path.join(__dirname, 'src'),
+      path.resolve(__dirname, 'src'),
       'node_modules',
     ],
   },

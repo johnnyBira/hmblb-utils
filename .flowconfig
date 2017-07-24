@@ -5,5 +5,5 @@
 [libs]
 
 [options]
-module.name_mapper='^locals/\(.*\)$' -> '<PROJECT_ROOT>/src/\1'
-module.name_mapper='^locals/\(.*\)$' -> '<PROJECT_ROOT>/src/utils/\1'
+module.name_mapper='^math/\(.*\)$' -> '<PROJECT_ROOT>/src/math/\1'
+module.name_mapper='^array/\(.*\)$' -> '<PROJECT_ROOT>/src/array/\1'

@@ -1,5 +1,7 @@
-// @floe
-import utils from './test';
+// @flow
 
-utils('1', '1');
-utils(1, 1);
+import array from './array';
+
+export default {
+  ...array,
+};

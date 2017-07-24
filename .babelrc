@@ -4,6 +4,6 @@
     "flow",
   ],
   "plugins": [
-    "transform-floe-strip-tyoes"
+    "transform-flow-strip-types"
   ]
 }
