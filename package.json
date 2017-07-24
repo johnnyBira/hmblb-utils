@@ -2,7 +2,7 @@
   "name": "hmblb-utils",
   "version": "0.0.0-semantically-released",
   "description": "Removes the gaps of your existing float based grid.",
-  "main": "src/index.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "lint": "eslint src",
     "prebuild": "rimraf dist",
