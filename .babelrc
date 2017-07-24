@@ -4,6 +4,8 @@
     "flow",
   ],
   "plugins": [
-    "transform-flow-strip-types"
+    "transform-flow-strip-types",
+    "transform-es2015-destructuring",
+    "transform-object-rest-spread"
   ]
 }
