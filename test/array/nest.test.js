@@ -4,7 +4,7 @@ import nest from 'array/nest';
 describe('Traverse function', () => {
   const baseArray = [0, 0, 0, 0, 0, 0];
 
-  it('Nests the array based on the return value of the condition function', () => {
+  it('Creates a new nested array for every even array item index', () => {
     expect(nest(baseArray, (item, index) => !!(index % 2))).toEqual(([[0, 0], [0, 0], [0, 0]]));
   });
 });
