@@ -1,11 +1,7 @@
 {
   "presets": [
     "es2015",
-    "flow",
-  ],
-  "plugins": [
-    "transform-flow-strip-types",
-    "transform-es2015-destructuring",
-    "transform-object-rest-spread"
+    "stage-2",
+    "flow"
   ]
 }
