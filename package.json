@@ -1,5 +1,5 @@
 {
-  "name": "hmblb-utils",
+  "name": "@hmblb/hmblb-utils",
   "version": "0.0.0-semantically-released",
   "description": "Removes the gaps of your existing float based grid.",
   "main": "dist/bundle.js",
